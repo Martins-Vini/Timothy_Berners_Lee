@@ -1,0 +1,38 @@
+*Planejamento - site do Timothy Berners-Lee
+
+Ideia do site: Biografia detalhada do Timothy berners-Lee para quem está iniciando na programação e deseja aprender mais sobre o criador da WWW e seus feitos. O produto conterá informações detalhadas sobre a pessoa do Timothy.
+
+Qual público quero atingir com esse projeto?
+- Pessoas iniciantes em programação que querem conhecer mais a origem da internet.
+
+- Pessoas curiosas que precisam de uma boa fonte de pesquisa para compreender mais sobre a internet e origem da linguagem de marcação HTML e da WWW.
+
+O que quero mostrar no meu site?
+
+Quero mostrar uma biografia detalhada do Timothy, junto com a taxonomia da criação da internet, da Word Wide Web e do HTML como linguagem de marcação em páginas web
+
+Quais sessões e funções gostaria de ter no site?
+
+- Nada muito dinâmico ou interativo, apenas boa contemplação dos dados e possibilidades de navegação.
+
+- Banner/slider inicial com design profissional
+explicando fluxo.
+
+
+- Sessões com header, main e footer como principais, que talvez tenham tal taxonomia:
+
+-> Slider
+-> Introdução à importância de conhecer mais do Timothy e suas criações e contribuições
+-> Biografia do Timothy
+-> Parte da criação e explicação da WWW e protocolo hhtps
+-> Criação do HTML e ensino do que são linguagens de marcação
+-> Sessão de entrevistas, coisas adjacentes do Timothy, vídeos explicativos, etc.
+-> Footer com direitos autorais e algumas informações
+
+Como será a base do design, paleta de cores e fontes do site?
+
+-> Design minimalista com paleta de cores do preto ao branco
+-> Fontes Arial sem serifa para facilitar a leitura
+
+Quais são as regras de negócio do meu site?
+-> Não há funcionalidades ou regras muito complexas, além do usuário seguir o fluxo de cima para baixo na leitura, esquerda para a direita, que demanda um bom design para ser interessante ler.
