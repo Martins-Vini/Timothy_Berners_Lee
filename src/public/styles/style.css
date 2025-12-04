@@ -21,7 +21,7 @@ main aside h1{
 }
 
 header{
-    background-image: url("/src/public/images/background/Timothy_site_banner.png");
+    background-image: url("../images/background/Timothy_site_banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: content-box;
