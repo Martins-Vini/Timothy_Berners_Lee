@@ -1,99 +1,474 @@
 @charset "UTF-8";
 
-:root{
-    --cor1:#17161C;
-    --cor2:#23222C;
-    --cor3:#715A5A;
-    --cor4:#D3DAD9;
+:root {
+    --cor1: #17161C;
+    --cor2: #23222C;
+    --cor3: #715A5A;
+    --cor4: #D3DAD9;
+    --cor5: #9AA9C7;
+    --cor6: #4C515B;
+    --cor7: #1A191B;
+    --cor8: #44424D;
+    --cor9: #DD472D;
+    --cor10: #8E2917;
+    --cor11: #1C1A1A;
+    --cor12: #403838;
+    --cor13: #131619;
 }
 
-body{
+body {
     margin: 0px;
     background-color: #C6D1E2;
 }
 
-p{
+p,
+footer p,
+footer h1, h2, ul {
     font-family: 'Albert Sans';
 }
 
-main aside h1{
+main aside h1 {
+    margin: 0;
     font-family: 'Bebas neue';
 }
 
-header{
+header {
     background-image: url("../images/background/Timothy_site_banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: content-box;
     background-color: rgb(30, 31, 34);
-    height:320px;
-    width:100%;
+    height: 320px;
+    width: 100%;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.199);
 }
 
-div#contain_logo{
+div#contain_logo {
     display: flex;
     align-items: center;
     justify-content: start;
 }
 
-div#contain_logo picture img{
-    width:25%;
+div#contain_logo picture img {
+    width: 25%;
 }
 
-header aside{
-    padding:15px;
+header aside {
+    padding: 15px;
 }
 
-header aside h1{
-    color:white;
-    font-family:'Pathway Extreme';
+header aside h1 {
+    color: white;
+    font-family: 'Pathway Extreme';
 }
 
-header aside p{
-    color:white;
-    width:500px;
+header aside p {
+    color: white;
+    width: 500px;
 }
 
-main{
+main {
     margin: 0;
 }
 
-main aside#info_tim{
-    width:100%;
+main aside#info_tim {
+    width: 100%;
     background-color: #2f303d;
     background-image: linear-gradient(120deg, var(--cor1), var(--cor2));
 }
 
-main aside#info_tim div{
-    display:flex;
+main aside#info_tim div {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
     padding: 10px;
 }
 
-main aside#info_tim div div{
-    display:flex;
+main aside#info_tim div div {
+    display: flex;
     flex-direction: column;
     padding: 10px;
 }
 
-main aside#info_tim h1{
-    margin:0;
-    color:white;
+main aside#info_tim h1 {
+    color: white;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     padding-top: 20px;
 }
 
-main aside#info_tim p{
-    color:white;
+main aside#info_tim p {
+    color: white;
     line-height: 30px;
-    text-indent:15px;
+    text-indent: 15px;
 }
 
-main aside#info_tim div div ul{
+main aside#info_tim div div ul {
     list-style: none;
     text-align: start;
 }
+
+/*main aside#info_tim div#redes_tim {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+main aside#info_tim div#redes_tim div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+main aside#info_tim div#redes_tim picture img {
+    position: relative;
+    width: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 0px;
+    left: 0px;
+    transition: 0.3s;
+}
+
+main aside#info_tim div#redes_tim picture img:hover {
+    width: 58px;
+    top: -5px;
+    left: -3px;
+    box-shadow: 5px 5px 18px rgba(255, 255, 255, 0.349);
+}*/
+
+main aside#contribuicoes_tim {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, var(--cor5), var(--cor6));
+}
+
+main aside#contribuicoes_tim h1 {
+    padding-top: 20px;
+}
+
+main aside#contribuicoes_tim picture img {
+    width: 75%;
+}
+
+main aside#contribuicoes_tim p {
+    text-align: justify;
+    text-indent: 7.5px;
+    line-height: 30px;
+}
+
+main aside#contribuicoes_mundo{
+    padding:15px;
+    text-align: center;
+    color:white;
+    background-image: linear-gradient(90deg, var(--cor7),var(--cor8));
+}
+
+main aside#contribuicoes_mundo table{
+    margin:10px;
+    padding:10px;
+    background-color: #131619;
+    border-radius: 10px;
+    width:100%;
+}
+
+main aside#html_funcionamento{
+    text-align: center;
+    padding:30px;
+    color:white;
+    background-image:linear-gradient(180deg, var(--cor10),var(--cor9))
+}
+
+main aside#html_funcionamento h2{
+    text-align: start;
+}
+
+main aside#html_funcionamento p{
+    text-align:justify;
+    text-indent: 7.5px;
+    line-height: 30px;
+}
+
+main aside#html_funcionamento div picture img{
+    width:75%;
+}
+
+main aside#html_funcionamento h2#titulo_comofunciona{
+    text-align: center;
+}
+
+main aside#html_funcionamento div#como_funciona{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+main aside#html_funcionamento div#como_funciona div{
+    width:45%;
+}
+
+main aside#html_funcionamento div#como_funciona div img#homerSimpsonimg{
+    width:45%;
+}
+
+main aside#www_funcionamento{
+    color:white;
+    padding:15px;
+    background-image: linear-gradient(90deg,black,var(--cor8));
+}
+
+main aside#www_funcionamento h1,p{
+    text-align: center;
+}
+
+main aside#www_funcionamento hr{
+    text-align: center;
+    background-color:white;
+    width:90%;
+}
+
+main aside#www_funcionamento div{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin:20px;
+}
+
+main aside#www_funcionamento div div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main aside#www_funcionamento div div ul{
+    text-align: justify;
+    list-style: decimal;
+}
+
+main aside#www_funcionamento div div img{
+    width:70%;
+}
+
+main aside#outras_contribuicoes{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    background-image: url("../images/background/timothy_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:15px;
+    text-align: center;
+}
+
+main aside#outras_contribuicoes h2{
+    margin-bottom:20px;
+}
+
+main aside#outras_contribuicoes div{
+    padding:15px;
+    border-radius: 10px;
+    width:80%;
+    background-color:rgba(0, 0, 0, 0.35);
+}
+
+main aside#outras_contribuicoes div p{
+    text-align: justify;
+    text-indent: 7.5px;
+    margin: 50px;
+}
+
+main aside#midias_timothy{
+    background-image: linear-gradient(90deg, var(--cor7), var(--cor8));
+    padding:20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color:white;
+}
+
+main aside#midias_timothy div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin:20px;
+}
+
+main aside#midias_timothy div iframe{
+    margin:20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.254);
+}
+
+main aside#curiosidades{
+    padding:20px;
+    text-align: center;
+    background-image:linear-gradient(180deg, var(--cor10),var(--cor9));
+    color:white;
+}
+
+main aside#curiosidades article > div{
+    padding:20px;
+    background-image: url("../images/background/timothybkcuriosidades.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+}
+
+main aside#curiosidades article div > div{
+    background-color: rgba(0, 0, 0, 0.587);
+    margin:auto;
+    margin-bottom:20px;
+    padding:10px;
+    border-radius: 10px;
+    width:70%;
+    height:auto;
+}
+
+main aside#curiosidades article aside{
+    margin-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+main aside#curiosidades article aside div{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+
+main aside#curiosidades article aside div img{
+    width:55%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(90deg, black, var(--cor7));
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+footer h1 {
+    padding: 15px;
+    margin: 0;
+}
+
+footer picture img {
+    margin: 0px;
+}
+
+footer div div p {
+    text-align: justify;
+    text-indent: 7.5px;
+    line-height: 30px;
+    width: 75%;
+}
+
+/*Media querys sempre têm que vir no final do arquivo css*/
+
+@media screen and (max-width:850px) {
+    header {
+        background-image: url("../images/background/banner_mobile.png");
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+        background-clip: content-box;
+        background-color: rgb(30, 31, 34);
+        height: 340px;
+        width: 100%;
+        box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.199);
+    }
+
+    header p{
+        position: relative;
+        font-size: 12px;
+        width:100px;
+    }
+
+    header aside p {
+        color: white;
+        width: 100%;
+    }
+
+    main aside#info_tim div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    main aside#html_funcionamento div#como_funciona{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    main aside#html_funcionamento div#como_funciona div{
+        width:100%;
+    }
+
+    main aside#www_funcionamento div{
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin:20px;
+    }
+
+    main aside#midias_timothy div iframe{
+        margin:auto;
+        margin-bottom:30px;
+    }
+
+    main aside#midias_timothy div{
+        flex-wrap: wrap
+    }
+
+    main aside#midias_timothy div{
+        width:80%;
+    }
+
+    main aside#curiosidades article aside{
+        flex-wrap: wrap;
+    }
+
+    footer div {
+        flex-wrap: wrap;
+    }
+
+    
+
+};
