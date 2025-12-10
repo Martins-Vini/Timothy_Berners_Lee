@@ -7,6 +7,7 @@
     <title>Timothy Berners-Lee</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/icons/favicon-16x16.png" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,7 +89,7 @@
             </em>
 
             <picture>
-                <img src="./images/conteudo/httpProtocol.png" alt="protocolo https">
+                <img class="lightbox-ativador" data-lightbox="./images/conteudo/httpProtocol.png" src="./images/conteudo/httpProtocol.png" alt="protocolo https">
             </picture>
 
             <p>
@@ -190,7 +191,7 @@
                     de programação (pois não executa lógica ou algoritmos), mas sim uma linguagem de marcação que
                     instrui o navegador sobre como exibir o conteúdo.</p>
 
-                <picture><img id="htmlex" src="./images/conteudo/htmlexample.png" alt="exemplo de html"></picture>
+                <picture><img id="htmlex" class="lightbox-ativador" data-lightbox="./images/conteudo/htmlexample.png" src="./images/conteudo/htmlexample.png" alt="exemplo de html"></picture>
             </div>
             <strong>
                 <h2 id="titulo_comofunciona">Como funciona</h2>
@@ -226,7 +227,7 @@
                 </div>
 
                 <div>
-                    <img id="homerSimpsonimg" src="./images/conteudo/homersimpson.png" alt="Homer Simpson como exemplo">
+                    <img id="homerSimpsonimg" class="lightbox-ativador" data-lightbox="./images/conteudo/homersimpson.png" src="./images/conteudo/homersimpson.png" alt="Homer Simpson como exemplo">
                     <p>
                         Quando você digita um URL, seu navegador solicita o arquivo HTML ao servidor. O navegador lê
                         (interpreta) o HTML, traduzindo as tags na estrutura visual que você vê na tela.
@@ -474,6 +475,14 @@
                     </picture>
                 </div>
     </footer>
+    <div id="lightbox" class="lightbox-oculto">
+        <span class="lightbox-fechar">
+            &times;
+        </span>
+        <img  class="lightbox-conteudo" id="lightbox-img">
+        <div id="lightbox-legenda">
+        </div>
+    </div>
     <script type="module" src="./scripts/main.js"></script>
 </body>
 
